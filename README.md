@@ -4,9 +4,6 @@
 
 An asynchronous client library for the Twitter [REST](https://dev.twitter.com/rest/public) and [Streaming](https://dev.twitter.com/streaming/overview) API's.
 
-[![Build Status](https://travis-ci.org/desmondmorris/node-twitter.svg?branch=master)](https://travis-ci.org/desmondmorris/node-twitter)
- [![NPM](https://nodei.co/npm/twitter.png?mini=true)](https://nodei.co/npm/twitter/)
-
 ```javascript
 var Twitter = require('twitter');
 
@@ -24,10 +21,6 @@ client.get('statuses/user_timeline', params, function(error, tweets, response) {
   }
 });
 ```
-
-## Installation
-
-`npm install twitter`
 
 ## Quick Start
 
@@ -186,9 +179,4 @@ const isTweet = _.conforms({
 
 ## Contributors
 
-Originally authored by  [@technoweenie](http://github.com/technoweenie)
- and maintained by [@jdub](http://github.com/jdub)
-
-Currently maintained by [@desmondmorris](http://github.com/desmondmorris)
-
-[And we cannot forget the community](https://github.com/desmondmorris/node-twitter/graphs/contributors)
+Originally authored by  [@technoweenie](http://github.com/technoweenie) and maintained by [@jdub](http://github.com/jdub)
