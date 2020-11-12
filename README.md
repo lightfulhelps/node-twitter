@@ -1,3 +1,5 @@
+**Note: this is a fork of an umaintained library. Intended for use on the Lightful platform only.**
+
 # Twitter for Node.js
 
 An asynchronous client library for the Twitter [REST](https://dev.twitter.com/rest/public) and [Streaming](https://dev.twitter.com/streaming/overview) API's.
